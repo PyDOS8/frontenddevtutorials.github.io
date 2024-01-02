@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Frontend Development Tutorials</title>
+  <link rel='stylesheet' href='css/styles.css'/>
+  <script src="js/navbar.js"></script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free online Frontend Development Courses">
+  <meta ame="keywords" content="Learn HTML, CSS and JavaScript for free">
+  <meta name="author" content="Websitehosterio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+	
+	<div class="main-section" id="main-section">
+	
+     	<noscript>To ensure the best experience when using this website please enable JavaScript</noscript>
+		
+		<div class="main-section-header">
+			<h2>Frontend Development Tutorials</h2>
+	    </div>
+		
+		<div class="main-section-about">
+		
+     		<div class="main-section-about-header">
+				<h3>What is Frontend Development Tutorials?</h3>
+				<p>Frotnend Development Tutorials is a website that teaches users how to do frontend website development in HTML, CSS and JavaScript for free without registration</p>	
+			</div>
+		</div>
+	</div>
+	<a href='#' style='color:white; text-decoration:none;'onclick='this.style.display = "none"; document.getElementById("closeNavBar").style.display = "block";document.getElementById("goToTop").style.display = "block";document.getElementById("navbar").style.display = "block";' id='showNavb'>Show navigation bar</a>
+ 	
+	<div class="navbar" id='navbar'>
+		<a id='closeNavBar' onclick="this.style.display = 'none'; closeNavBar();">X</a>
+	
+     	<div class="navbar-links">
+			<a href='javascript:hideTutorials()' style='color:black;text-decoration:None;'id='hideTutorials'>Hide Tutorials</a>
+			
+			<div class="navbar-tutorials" id='navbar-tutorials'>
+				
+				<div class="html-tutorials" id='htmlTutorials'>
+					<h2>Tutorials</h2>
+					<p>HTML Tutorials</p>
+					<ul>
+						<li><a href="tutorials/html/tutorial1.html">Tutorial 1: What Is HTML?</li></a>
+						<p>In this tutorial you will learn what HTML is</p>
+						<li><a href="tutorials/html/tutorial2.html">Tutorial 2: What Is A Tag?</li></a>			
+						<p>In this tutorial you will learn what a tag is in HTML</p>
+						<li><a href="tutorials/html/tutorial3.html">Tutorial 3: Code Editors and tools</a></li>
+						<p>In this tutorial you will learn about the tools you can use to build websites</a></li>
+						<li><a href="tutorials/html/tutorial4.html">Tutorial 4: Paragraphs</a></li>
+						<p>In this tutorial you will learn how to create paragraphs</p>
+						<li><a href="tutorials/html/tutorial5.html">Tutorial 5: Headers</a></li>
+						<p>In this tutorial you will learn how to make headers</p>
+						<li><a href="tutorials/html/tutorial6.html">Tutorial 6: Links</a></li>
+						<p>In this tutorial you will learn how to make links</p>						
+						<li><a href="tutorials/html/tutorial7.html">Tutorial 7: Creating Bullet Points</a></li>
+						<p>In this tutoiral you will learn how to make bullet points</p>
+						<li><a href="tutorials/html/tutorial8.html">Tutorial 8: Spacing Content</li></a>	
+						<p>In this tutorial you will learn how to space content</p>
+						<li><a href="tutorials/html/tutorial9.html">Tutorial 9: Divs</li></a>
+						<p>In this tutorial you will learn how to create a div</p>					
+						<li><a href="tutorials/html/tutorial10.html">Tutorial 10: No Script Tag</a></li>
+						<p>In this tutorial you will learn how to create a noscript tag</p>						
+						<li><a href="tutorials/html/tutorial11.html">Tutorial 11: Styling using &lt;style&gt; tag</li></a>
+						<p>In this tutorial you will learn how to add styling using embeded CSS.</p>
+					</ul>
+				</div>
+				
+				<div class="css-tutorials" id='cssTutorials'>
+					<p>CSS Tutorials</p>
+					<li><a href="tutorials/css/tutorial1.html">Tutorial 1: What is CSS?</a></li>			
+					<p>In this tutorial you will learn what CSS is</p>			
+					<li><a href="tutorials/css/tutorial2.html">Tutorial 2: Code Editors and tools</a></li>
+					<p>In this tutorial you will learn about the tools you can for CSS development</p>
+					<li><a href="tutorials/css/tutorial3.html">Tutorial 3: How to center a div</a></li>
+					<p>In this tutorial you will learn how to center a div</p>
+				</div>
+				
+				<div class="javascript-tutorials" id="javascriptTutorials">
+					<p>JavaScript Tutorials</p>
+					<li><a href="tutorials/js/tutorial1.html">Tutorial 1: What is JS?</a></li>
+					<p>In this tutorial you will learn about JS</p>
+					<li><a href="tutorials/js/tutorial2.html">Tutorial 2: What do I need to use JavaScript?</a></li>
+					<p>In this tutorial you will learn about tools that can help you write JS code</p>
+					<li><a href="tutorials/js/tutorial3.html">Tutorial 3: </a></li>
+				</div>
+			</div>
+		
+			<div id="main-nav-section" class="main-nav-section">
+			  <h2>Main Links</h2>
+			  <ul>
+				<li><a href="https://github.com/websitehosterio/">View source code</a></li>
+				<li><a id='showTutorials' href='javascript:showTutorials()'>Show Tutorials</a></li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	<p id='goToTop' style='text-align:center; color:white;'><a style='color:orange; text-decoration:none;' href='#'>Go back</a> to the top of the page</a></p>
+ </body>
+</html>
